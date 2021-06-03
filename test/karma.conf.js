@@ -59,7 +59,7 @@ module.exports = function(config) {
       //'karma-firefox-launcher',
       //'karma-ie-launcher',
       //'karma-safari-launcher',
-      'karma-phantomjs-launcher',
+      //'karma-phantomjs-launcher',
       'karma-mocha',
       'karma-chai',
       'karma-sinon',
