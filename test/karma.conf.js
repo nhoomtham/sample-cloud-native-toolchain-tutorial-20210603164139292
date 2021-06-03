@@ -59,7 +59,7 @@ module.exports = function(config) {
       //'karma-firefox-launcher',
       //'karma-ie-launcher',
       //'karma-safari-launcher',
-      'karma-phantomjs-launcher',
+      //'karma-phantomjs-launcher',
       'karma-mocha',
       'karma-chai',
       'karma-sinon',
@@ -87,7 +87,7 @@ module.exports = function(config) {
     // start these browsers
     // available browser launchers:
     // https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['PhantomJS'],
+    //browsers: ['PhantomJS'],
 
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits
@@ -98,7 +98,7 @@ module.exports = function(config) {
       enabled: false,
 
       // enable/disable phantomjs support, default is true
-      usePhantomJS: true,
+      //usePhantomJS: true,
     },
   });
 };
