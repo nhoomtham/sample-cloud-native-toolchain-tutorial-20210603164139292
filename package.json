@@ -51,7 +51,7 @@
     "phantomjs": "^2.1.8",
     "request": "^2.88.0",
     "serve-favicon": "^2.5.0",
-    "sinon": "^7.3.2",
+    "sinon": "^21.0.1",
     "swagger-express-mw": "^0.7.0",
     "swagger-tools": "^0.10.4"
   },
